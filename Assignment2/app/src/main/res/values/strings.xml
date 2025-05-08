@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">K22411CSampleProject</string>
+    <string name="title_login_user_name">User name:</string>
+    <string name="title_login_user_name_hint">Enter your user name</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_save_login_infor">Save login infor</string>
+    <string name="title_login_button_login">Login</string>
+    <string name="confirm_exit_title">Exit confirmation</string>
+    <string name="confirm_exit_message">Are you sure you want to exit?</string>
+    <string name="confirm_exit_yes">YES</string>
+    <string name="confirm_exit_no">NO</string>
+    <string name="title_employee">Employee</string>
+    <string name="title_customer">Customer</string>
+
+    <string name="title_company">Jeju Tangerines</string>
+    <string name="label_company_motto"><b><i>When life gives you citrus, make it a warm brew!</i></b></string>
+    <string name="title_main_cast">Main Admin</string>
+    <string name="title_family_members">Family Members</string>
+    <string name="title_company_notes">Company Notes</string>
+    <string name="text_notes_content"> <b><i>Welcome to Jeju Tangerines,</i></b>
+        \nWhere a tale of love and resilience unfolds on Jeju Island!
+        \nOur team, from the poetic Ae-sun to the devoted Gwan-sik, has navigated challenges to build a loving family.
+        \nEven when life throws sour moments their way, they find ways to create sweet memories. Don\'t miss Gwang-rye, the legendary haenyeo diver, and Geum-myeong, the daughter who breaks boundaries. Join our Jeju tour to experience the essence of their story!</string>
+
+    <string name="label_company_footer">End of list, but the Jeju story continues!</string>
+</resources>
