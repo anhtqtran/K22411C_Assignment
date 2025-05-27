@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_product_management"
+        android:title="@string/title_product_management"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_new_product"
+                android:title="@string/title_new_product" />
+            <item
+                android:id="@+id/menu_sort_by_id"
+                android:title="@string/title_sort_by_id" />
+            <item
+                android:id="@+id/menu_sort_by_name"
+                android:title="@string/title_sort_by_name" />
+            <item
+                android:id="@+id/menu_sort_by_price"
+                android:title="@string/title_sort_by_price" />
+            <item
+                android:id="@+id/menu_sort_by_quantity"
+                android:title="@string/title_sort_by_quantity" />
+            <item
+                android:id="@+id/menu_filter_by_category"
+                android:title="@string/title_filter_by_category" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_broadcast_advertising"
+        android:title="@string/title_broadcast_advertising"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_help"
+        android:title="@string/title_help"
+        app:showAsAction="never" />
+</menu>
