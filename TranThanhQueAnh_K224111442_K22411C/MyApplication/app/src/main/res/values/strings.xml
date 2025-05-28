@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Que Anh Application</string>
+    <string name="hntUsername">Enter Your Username</string>
+    <string name="hntPassword">Enter Your Password</string>
+    <string name="titleRemember">Remember Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="titleProductName">Product Name</string>
+    <string name="titleProductCode">Product Code</string>
+    <string name="titleUnitPrice">Unit Price</string>
+    <string name="hntProductCodeProductCode">Enter Product Code</string>
+    <string name="hntProductName">Enter Product Name</string>
+    <string name="hntUnitPrice">Enter Product Price</string>
+    <string name="btnSave">Save</string>
+    <string name="hntImageLink">Enter Image Link</string>
+    <string name="alert">Please enter information</string>
+    <string name="alprice">Invalid Price</string>
+</resources>
