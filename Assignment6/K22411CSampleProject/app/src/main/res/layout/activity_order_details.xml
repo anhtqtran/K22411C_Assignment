@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Header Row -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txtHeaderProductId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_product_id"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeaderQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_quantity"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            app:layout_constraintWidth_percent="0.1"
+            app:layout_constraintStart_toEndOf="@id/txtHeaderProductId"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeaderPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_price"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="end"
+            app:layout_constraintWidth_percent="0.2"
+            app:layout_constraintStart_toEndOf="@id/txtHeaderQuantity"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeaderDiscount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_discount"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="end"
+            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintStart_toEndOf="@id/txtHeaderPrice"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeaderVAT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_vat"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="end"
+            app:layout_constraintWidth_percent="0.15"
+            app:layout_constraintStart_toEndOf="@id/txtHeaderDiscount"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeaderTotalValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_total_value"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="end"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintStart_toEndOf="@id/txtHeaderVAT"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/lvOrderDetails"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        app:layout_constraintTop_toBottomOf="@id/headerRow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
