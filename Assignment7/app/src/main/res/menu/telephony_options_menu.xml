@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_all"
+        android:title="@string/title_all_contacts" />
+    <item
+        android:id="@+id/mnu_viettel"
+        android:title="@string/title_viettel"/>
+    <item
+        android:id="@+id/mnu_mobifone"
+        android:title="@string/title_mb" />
+    <item
+        android:id="@+id/mnu_other_networks"
+        android:title="@string/title_other_networks" />
+</menu>
