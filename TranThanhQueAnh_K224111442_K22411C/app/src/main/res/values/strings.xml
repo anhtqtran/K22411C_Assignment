@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peppa Pig Tele Sales</string>
+    <string name="welcome_message">Welcome to Peppa Pig Tele Sales App</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="admin_role">Admin</string>
+    <string name="employee_role">Employee</string>
+    <string name="about_menu_item">About</string>
+    <string name="login_success_admin">Login successful! Welcome Admin.</string>
+    <string name="login_success_employee">Login successful! Welcome Employee.</string>
+    <string name="login_failed">Invalid Username or Password or Role!</string>
+    <string name="admin_tasks_title">Admin Dashboard - All Tasks</string>
+    <string name="create_new_task_button">Create a New Task</string>
+    <string name="task_title_hint">Enter Task Title</string>
+    <string name="assign_to_spinner_prompt">Assign to Employee</string>
+    <string name="select_customers_button">SELECT CUSTOMER</string>
+    <string name="create_task_button">CREATE TASK</string>
+    <string name="task_creation_success">Task created successfully!</string>
+    <string name="task_creation_failure">Failed to create task.</string>
+    <string name="no_customers_selected">No customers selected for the task.</string>
+    <string name="employee_tasks_title">Employee Dashboard - Your Tasks</string>
+    <string name="calling_customer">Calling customer: %1$s</string>
+    <string name="task_completed_message">All customers called for this task. Task marked as completed!</string>
+    <string name="student_id_label">Student ID:</string>
+    <string name="student_name_label">Student Name:</string>
+    <string name="student_email_label">Email:</string>
+    <string name="student_class_label">Class Name:</string>
+    <string name="about_title">About This App</string>
+    <string name="student_id_value">K224111442</string>
+    <string name="student_name_value">Trần Thanh Quế Anh</string>
+    <string name="student_email_value">anhttq22411c@st.uel.edu.vn</string>
+    <string name="student_class_value">K22411C</string>
+    <string name="app_description">This application is developed as part of the Mid-Term Exam for M-Commerce Development course.</string>
+    <string name="avatar_description">Student Avatar</string>
+    <string name="txt_selected_customers">Selected Customers:</string>
+    <string name="txt_customer_name">Customer Name</string>
+    <string name="txt_customer_phone">Phone</string>
+    <string name="txt_task_title">Task Title</string>
+    <string name="txt_assigned_to">Assigned To: Employee Name</string>
+    <string name="txt_date_assigned">Assigned Date</string>
+    <string name="txt_loading_current_task">Current Task: Loading...</string>
+
+</resources>
